@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "workshop-estrutura"
+version = "0.1.0"
+description = ""
+authors = ["Pedro <pedro.h.roque14@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+setuptools = "^78.1.0"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
