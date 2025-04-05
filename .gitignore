@@ -5,3 +5,5 @@
 poetry.lock
 
 *test.xlsx
+
+*consolidated_data.xlsx
