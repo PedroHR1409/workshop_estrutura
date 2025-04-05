@@ -19,7 +19,7 @@ if __name__ == '__main__':
     """Função de execução do projeto"""
     input_folder = 'data/input'
     output_folder = 'data/output'
-    output_file_name = 'consolidate_data.xlsx'
+    output_file_name = 'consolidated_data.xlsx'
 
     try:
         pipeline_completa(input_folder, output_folder, output_file_name)
