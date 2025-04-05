@@ -14,3 +14,7 @@ pandas = "^2.2.3"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+known_third_party = []
