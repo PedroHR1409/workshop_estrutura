@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def concat_from_list(list_with_dfs: str) -> pd.DataFrame:
     """
     Função para concatenar os dataframes de uma lista

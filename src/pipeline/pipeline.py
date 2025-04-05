@@ -1,6 +1,7 @@
+from src.gpipeline.transform import concat_from_list
 from src.pipeline.extract import extract_files
 from src.pipeline.load import save_df
-from src.gpipeline.transform import concat_from_list
+
 
 def pipeline_completa(input_folder, output_folder, output_file_name):
     """

@@ -1,20 +1,21 @@
-import os
 import glob
+import os
 from typing import List
 
 import pandas as pd
+
 
 def extract_files(folder_path: str) -> List[pd.DataFrame]:
     """
     Função para ler os arquivos de uma pasta data/input
     e retornar uma lista de dataframes
-    
+
     args: folder_path (str): Caminho da pasta com arquivos
 
     returns: Lista de dataframes
-    
+
     """
-    all_files = glob.glob(os.path.join(folder_path, "*.xlsx"))
+    all_files = glob.glob(os.path.join(folder_path, '*.xlsx'))
 
     dataframe_list = []
 

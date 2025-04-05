@@ -1,6 +1,6 @@
 from src.pipeline.pipeline import pipeline_completa
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     input_folder = 'data/input'
     output_folder = 'data/output'
     output_file_name = 'consolidate_data.xlsx'
