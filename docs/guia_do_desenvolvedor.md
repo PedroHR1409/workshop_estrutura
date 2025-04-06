@@ -4,7 +4,12 @@ Aqui você encontrará as bases que foram utilizadas para construir o projeto.
 
 ## Bases
 
-##### Cartão de crédito
+#### Cartão de crédito
 [base_cartoes_atual](#)
+
+|Coluna | Filtro |
+|:-----:|:------:|
+tp_funcionalidade | "M"
+titular | "SIM" 
 
 
