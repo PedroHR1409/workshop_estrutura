@@ -4,8 +4,6 @@
 .vscode
 poetry.lock
 
-site/
-
 *test.xlsx
 
 *consolidated_data.xlsx
