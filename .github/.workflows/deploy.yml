@@ -1,19 +1,32 @@
 name: Deploy to GitHub Pages
+
 on:
   push:
     branches:
-      main
-  pull_reqquest:
-    branches:
-      main
+      - main  # Garante que o deploy será acionado apenas no push para a branch main
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material
-      - run: mkdocs build
-      - run: mkdocs gh-deploy --force
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs mkdocs-material
+
+      - name: Build the documentation
+        run: mkdocs build
+
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
+        env:
+          # Usando o GITHUB_TOKEN para autenticação automática
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
