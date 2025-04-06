@@ -21,6 +21,3 @@ plugins:
 nav:
   - Home: index.md
   - Guia do Desenvolvedor: guia_do_desenvolvedor.md
-  - Dev: 
-    - Dev1: dev/dev1.md
-    - Dev2: dev/dev2.md
