@@ -13,10 +13,10 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
 
-plugins: 
-  - search
-  - mkdocstrings:
-      default_handler: python
+#plugins: 
+#  - search
+#  - mkdocstrings:
+#      default_handler: python
 
 nav:
   - Home: index.md
