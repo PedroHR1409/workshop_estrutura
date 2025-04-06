@@ -1,6 +1,6 @@
 site_name: Workshop Estrutura
 theme:
-  name: dracula
+  name: material
 
 
 repo_name: 'PedroHR1409/workshop_estrutura'
