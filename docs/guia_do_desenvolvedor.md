@@ -12,4 +12,3 @@ Aqui você encontrará as bases que foram utilizadas para construir o projeto.
 tp_funcionalidade | "M"
 titular | "SIM" 
 
-
