@@ -1,9 +1,9 @@
 **/__pycache__/
+.pytest_cache/
 
 .venv
 .vscode
 poetry.lock
 
 *test.xlsx
-
 *consolidated_data.xlsx

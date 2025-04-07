@@ -1,22 +1,24 @@
 site_name: Workshop Estrutura
 theme:
   name: material
+  palette:
+    primary: green
+  language: pt
 
+repo_name: "PedroHR1409/workshop_estrutura"
+repo_url: "https://github.com/PedroHR1409/workshop_estrutura/"
+site_url: "https://PedroHR1409.github.io/workshop_estrutura"
 
-repo_name: 'PedroHR1409/workshop_estrutura'
-repo_url: 'https://github.com/PedroHR1409/workshop_estrutura/'
-site_url: 'https://PedroHR1409.github.io/workshop_estrutura'
-
-markdown_extensions: 
+markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
 
-#plugins: 
-#  - search
-#  - mkdocstrings:
-#      default_handler: python
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
 
 nav:
   - Home: index.md
